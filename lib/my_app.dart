@@ -41,11 +41,11 @@ Future<void> _precacheImages(final BuildContext context) async {
     }
   }
 
-  for (final EFlag icon in EFlag.values) {
-    if (icon.type == EImageType.png) {
-      precacheImage(AssetImage(icon.fullPath), context);
-    } else if (icon.type == EImageType.svg) {
-      final loader = SvgAssetLoader(icon.fullPath);
+  for (final ELogo logo in ELogo.values) {
+    if (logo.type == EImageType.png) {
+      precacheImage(AssetImage(logo.fullPath), context);
+    } else if (logo.type == EImageType.svg) {
+      final loader = SvgAssetLoader(logo.fullPath);
       svg.cache
           .putIfAbsent(loader.cacheKey(null), () => loader.loadBytes(null));
     }

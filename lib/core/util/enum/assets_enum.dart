@@ -15,7 +15,8 @@ enum EIcons {
 }
 
 enum ELogo {
-  logo(name: "logo", type: EImageType.png);
+  logo(name: "logo", type: EImageType.png),
+  logoFg(name: "logo_fg", type: EImageType.png);
 
   final String name;
   final EImageType type;

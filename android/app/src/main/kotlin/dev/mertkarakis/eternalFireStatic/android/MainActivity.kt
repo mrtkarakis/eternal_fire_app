@@ -1,4 +1,4 @@
-package com.example.eternal_fire_static
+package dev.mertkarakis.eternalFireStatic.android
 
 import io.flutter.embedding.android.FlutterActivity
 
