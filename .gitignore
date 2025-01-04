@@ -43,3 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Private
+/lib/core/network/network_manager.dart
+/lib/core/private/
+/lib/core/util/shared/widget/button/
+/lib/core/util/shared/widget/formField/
+/assets/.env
